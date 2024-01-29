@@ -1,2 +1,32 @@
+.holder
+{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    grid-template-areas: 
+    "a b"
+    "c d";
+}
 
-/* Your CSS Code here. */
+
+.item-1
+{
+    grid-area: a;
+    background-color: yellow;
+}
+.item-2
+{
+    grid-area: b;
+    background-color: yellow;
+}
+.item-3
+{
+    grid-area: c;
+    background-color: yellow;
+}
+.item-4
+{
+    grid-area: d;
+    background-color: yellow;
+}
